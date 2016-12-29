@@ -10,8 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.kimej.todayhereis.MainActivity">
 
-    <TextView
+    <Button
+        android:text="Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="goMapsActivity" />
+
 </RelativeLayout>
