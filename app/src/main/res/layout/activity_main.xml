@@ -18,9 +18,9 @@
         android:layout_marginStart="27dp"
         android:layout_marginTop="25dp"
         android:id="@+id/button2"
+        android:onClick="goMapsActivity (MainActivity)"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="goMapsActivity" />
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
